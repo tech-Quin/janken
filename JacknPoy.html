@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="JacknPoy.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 class="title">Rock - Paper - Scissor</h1>
+
+    <div class="choices">
+      <button id="rockDisplay" onclick="playGame('rock')">👊</button>
+      <button id="scissorDisplay" onclick="playGame('scissor')">✌️</button>
+      <button id="paperDisplay" onclick="playGame('paper')">✋</button>
+    </div>
+
+    <div class="players">
+      <h3 id="playerDisplay">PLAYER:</h3>
+      <h3 id="computerDisplay">COMPUTER:</h3>
+    </div>
+
+    <h1 id="resultDisplay"></h1>
+
+    <h2>SCORE</h2>
+
+    <div id="score">
+        <h2 style="margin-bottom: 2rem;" id="ahead" ></h2>
+      <div>
+        <h4>Player: <span id="playerScore">0</span></h4>
+        <h4>Computer: <span id="computerScore">0</span></h4>
+      </div>
+    </div>
+
+    <script src="JacknPoy.js"></script>
+  </body>
+</html>
