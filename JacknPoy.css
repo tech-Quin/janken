@@ -8,7 +8,7 @@
 }
 
 body{
-    background-color: hsl(1, 3%, 14%);
+    background-color:green;
     display: flex;
     height: 100vh;
     gap: 2rem;
